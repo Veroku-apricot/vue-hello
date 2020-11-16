@@ -6,8 +6,7 @@ var app = new Vue({
   data: {
     message: 'Hello, this is one of my favourite Pokémon!',
     image: 'img/Togepi.gif', //Bonus 1: Add an img
-    evo: 'Evolve!',
-    restart: 'Restart!'
+    evo: 'Evolve!'
   },
   methods: {
     changeImg: function() {
