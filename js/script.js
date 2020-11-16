@@ -1,5 +1,3 @@
-// Altro possibile Bonus: gestire una funzione con un evento nel modo Vue.
-
 // Print a message on h1, using data
 var app = new Vue({
   el: '#root',
@@ -8,6 +6,7 @@ var app = new Vue({
     image: 'img/Togepi.gif', //Bonus 1: Add an img
     evo: 'Evolve!'
   },
+  // Bonus 2: Add a function
   methods: {
     changeImg: function() {
       if (this.image === 'img/Togepi.gif'){
