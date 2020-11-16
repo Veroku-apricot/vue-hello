@@ -2,6 +2,8 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
+    <!-- Link css -->
+    <link rel="stylesheet" href="css/style.css">
     <!-- Link vue -->
     <script src="https://cdn.jsdelivr.net/npm/vue"></script>
     <title></title>
@@ -9,7 +11,7 @@
   <body>
     <div id="root">
       <h1>{{message}}</h1>
-      <img v-bind:src="image" alt="Toge img">
+      <img v-bind:src="image" alt="Toge img"> <br>
       <button @click='changeImg'>{{evo}}</button>
 
     </div>
